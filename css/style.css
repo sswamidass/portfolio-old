@@ -1,0 +1,255 @@
+h1, h2, h3, h4, h5, h6 {
+    font-family: Bebas Neue,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: lighter;
+    text-transform: uppercase;
+}
+a:link {
+	text-decoration:none;	
+}
+.page-scroll > a {
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.orange{
+	color: #e59b3d;
+}
+.navbar-default .navbar-toggle{
+	border:none;	
+}
+.navbar-default {
+	background: #252c37;	
+	
+}
+.navbar-brand {
+    font-family: Bebas Neue,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 100;
+    text-transform: uppercase;
+	font-size: 2em;
+	color: #fff !important;
+}
+.navbar-brand span{
+	color: #e59b3d;
+}
+.navbar-default .navbar-nav > li > a {
+	color: #fff !important;
+}
+
+@media(max-width:767px) {
+   .navbar-brand {
+	   font-size: 1.3em;
+	   
+   }
+}
+
+header {
+    background: none repeat scroll 0 0 #d3d3cb;
+    color: #252c37;
+    text-align: center;
+}
+
+header .container {
+    padding-bottom: 100px;
+    padding-top: 200px;
+}
+
+header .intro-text .name {
+    display: block;
+    text-transform: uppercase;
+    font-family: Bebas Neue,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 3.3em;
+    font-weight: 500;
+}
+
+.skills {
+    font-size: 1.25em;
+    font-weight: 300;
+}
+
+@media(min-width:768px) {
+    header .container {
+        padding-top: 200px;
+        padding-bottom: 100px;
+    }
+
+    header .intro-text .name {
+        font-size: 4em;
+		font-weight: 700;
+    }
+
+    .skills {
+        font-size: 1.75em;
+    }
+}
+section {
+    padding: 100px 0;
+}
+
+section h2 {
+    margin: 0;
+    font-size: 3em;
+}
+
+section.success {
+    color: #fff;
+    background: #252c37;
+}
+section.contactForm {
+    background: #d3d3cb;
+}
+
+@media(max-width:767px) {
+    section {
+        padding: 75px 0;
+    }
+
+    section.first {
+        padding-top: 75px;
+    }
+	.btn-resume{
+		display: inline !important;
+		background-color: #727272 !important;
+    	border-color: #727272 !important;	
+	}
+	.resume {
+		display:none;	
+	}
+}
+
+.btn-success {
+	background-color: #252c37;
+	border-color: #252c37;
+}
+.btn-outline {
+    margin-top: 15px;
+    border: solid 2px #fff;
+    font-size: 20px;
+    color: #fff;
+    background: 0 0;
+    transition: all .3s ease-in-out;
+}
+
+.btn-resume{
+	display:none;	
+}
+
+.btn-success.active, 
+.btn-success.focus, 
+.btn-success:active, 
+.btn-success:focus, 
+.btn-success:hover, 
+.open > .dropdown-toggle.btn-success{
+	background-color: #727272;
+    border-color: #727272;
+}
+.btn-outline:hover,
+.btn-outline:focus,
+.btn-outline:active,
+.btn-outline.active {
+    border: solid 2px #fff;
+    color: #e59b3d;
+    background: #fff;
+}
+
+.floating-label-form-group {
+    position: relative;
+    margin-bottom: 0;
+    padding-bottom: .5em;
+    border-bottom: 1px solid #adadad;
+}
+
+.floating-label-form-group input,
+.floating-label-form-group textarea {
+    z-index: 1;
+    position: relative;
+    padding-right: 0;
+    padding-left: 0;
+    border: 0;
+    border-radius: 0;
+    font-size: 1.5em;
+    background: 0 0;
+    box-shadow: none!important;
+    resize: none;
+}
+
+.floating-label-form-group label {
+    display: block;
+    z-index: 0;
+    position: relative;
+    top: 2em;
+    margin: 0;
+    font-size: .85em;
+    line-height: 1.764705882em;
+    vertical-align: middle;
+    vertical-align: baseline;
+    opacity: 0;
+    -webkit-transition: top .3s ease,opacity .3s ease;
+    -moz-transition: top .3s ease,opacity .3s ease;
+    -ms-transition: top .3s ease,opacity .3s ease;
+    transition: top .3s ease,opacity .3s ease;
+}
+
+.floating-label-form-group::not(:first-child) {
+    padding-left: 14px;
+    border-left: 1px solid #252c37;
+}
+
+.floating-label-form-group-with-value label {
+    top: 0;
+    opacity: 1;
+}
+
+.floating-label-form-group-with-focus label {
+    color: #18bc9c;
+}
+
+form .row:first-child .floating-label-form-group {
+    border-top: 1px solid #adadad;
+}
+footer {
+    color: #fff;
+}
+
+footer h3 {
+    margin-bottom: 30px;
+}
+
+footer .footer-above {
+    padding-top: 50px;
+    background-color: #252c37;
+}
+
+footer .footer-col {
+    margin-bottom: 50px;
+}
+
+footer .footer-below {
+    padding: 25px 0;
+    background-color: #252c37;
+}
+
+.btn-social {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border: 2px solid #fff;
+    border-radius: 100%;
+    text-align: center;
+    font-size: 20px;
+    line-height: 45px;
+}
+
+.btn:focus,
+.btn:active,
+.btn.active {
+    outline: 0;
+}
+
+@font-face {
+  font-family: 'Bebas Neue';
+  src: url('../fonts/bebasneue-webfont.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/bebasneue-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/bebasneue-webfont.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/bebasneue-webfont.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/bebasneue-webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/bebasneue-webfont.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
