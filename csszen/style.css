@@ -1,0 +1,428 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto+Condensed);
+html {
+	font-size: 100%;
+	line-height: 1;
+	-moz-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+h1, h2, h3, h4 {
+	font-family: 'Bangers', sans-serif;
+}
+h3, h4 {
+	margin: 0 auto;
+	width: 85%;
+	text-align: center;
+	margin-top: 1.3em;
+}
+h1 {
+	font-size: 4em;
+	font-weight: lighter;
+	margin-bottom: 0.4em;
+	margin-top: 0.4em;
+}
+h2 {
+	font-size: 1.3em;
+	font-weight: lighter;
+}
+h3 {
+	font-size: 2em;
+	font-weight: lighter;
+	letter-spacing: 1px;
+}
+p {
+	font-family: 'Roboto Condensed', sans-serif;
+	line-height: 1.4;
+	color: #fff;
+}
+a, a abbr {
+	font-family: 'Roboto Condensed', sans-serif;
+}
+p a {
+	color: #231F20;
+	font-weight: 700;
+}
+.participation p a {
+	color: #fff;
+}
+.requirements p a {
+	color: #fff;
+}
+.main .benefits h3, .main .benefits p {
+	color: #231F20;
+}
+p a abbr {
+	font-weight: 700;
+}
+abbr {
+	font-family: 'Roboto Condensed', sans-serif;
+}
+header {
+	width: 100%;
+	text-align: center;
+}
+header h2 abbr {
+	font-family: 'Roboto Condensed', sans-serif;
+}
+.intro .preamble h3, .intro .preamble p, .explanation p, .participation p, .benefits p, .requirements p {
+	margin: 0 auto;
+	width: 85%;
+	text-align: center;
+	margin-top: 1.3em;
+}
+.main p, .main h3, .preamble h3, aside h3 {
+	margin: 1.3em auto 0;
+	width: 85%;
+	color: #fff;
+}
+header, .summary {
+	color: #fff;
+}
+body {
+	background: #231F20;
+}
+.summary {
+	padding-top: 1.4em;
+	text-align: center;
+}
+.summary p {
+	margin: 0 auto;
+	width: 90%;
+}
+.summary a {
+	font-weight: 700;
+	text-transform: uppercase;
+	color: white;
+	text-decoration: none;
+}
+.summary a:hover, .zen-resources li a:hover {
+	text-decoration: underline;
+}
+.intro:before {
+	background: url("avengers.svg") no-repeat scroll 50% 0em / 20em;
+	height: 16em;
+	display: block;
+	content: "";
+}
+.summary:after {
+	height: 4em;
+	display: block;
+	content: "";
+}
+.intro .preamble:before {
+	background: url("captain-america.svg") no-repeat scroll 50% 0em / 18em;
+	height: 16.3em;
+	display: block;
+	content: "";
+}
+.explanation:before {
+	background: url("thor.svg") no-repeat scroll 50% 0em / 18em;
+	height: 16.3em;
+	display: block;
+	content: "";
+}
+.participation:before {
+	background: url("hulk.svg") no-repeat scroll 50% 0em / 18em;
+	height: 14.3em;
+	display: block;
+	content: "";
+}
+.benefits:before {
+	background: url("ironman.svg") no-repeat scroll 50% 0em / 18em;
+	height: 14.3em;
+	display: block;
+	content: "";
+}
+.requirements:before {
+	background: url("spiderman.svg") no-repeat scroll 50% 0em / 18em;
+	height: 14.3em;
+	display: block;
+	content: "";
+}
+aside:before {
+	background: url("avengers-full.svg") no-repeat scroll 50% 0em / 18em;
+	height: 14.3em;
+	display: block;
+	content: "";
+	margin: 0;
+}
+.zen-resources li {
+	line-height: 1.4em;
+}
+.zen-resources li a, .zen-resources li a abbr {
+	font-weight: 700;
+	color: #fff;
+	font-family: 'Roboto Condensed', sans-serif;
+	text-decoration: none;
+}
+.zen-resources li a :hover {
+	color: #3a3a3a;
+}
+.intro .preamble:after {
+	height: 4em;
+	display: block;
+	content: "";
+}
+.intro {
+	background: #231F20;
+}
+.intro .preamble {
+	background: #bb2227;
+}
+.main .explanation {
+	background: #486A9C;
+}
+.main .participation {
+	background: #42A120;
+}
+.main .requirements {
+	background: #BA2228;
+}
+.main .benefits {
+	background: #EFBB14;
+}
+footer {
+	background: #BA2228;
+}
+aside {
+	background: #3A5D93;
+}
+.explanation:after {
+	height: 4em;
+	display: block;
+	content: "";
+}
+.participation:after {
+	height: 4em;
+	display: block;
+	content: "";
+}
+.benefits:after {
+	height: 4em;
+	display: block;
+	content: "";
+}
+footer, aside {
+	margin: 0 auto;
+	text-align: center;
+}
+footer {
+	padding: 1.4em 0;
+}
+footer a {
+	font-family: 'Bangers', sans-serif;
+	color: #fff;
+	font-size: 1.7em;
+	font-weight: lighter;
+}
+aside div {
+	padding-bottom: 1.4em;
+}
+aside .wrapper {
+	padding-bottom: 1.4em;
+	background: #3A5D93;
+}
+aside ul {
+	list-style: none;
+	padding-left: 0;
+}
+aside nav li {
+	font-family: 'Bangers', sans-serif;
+	font-weight: 400;
+	line-height: 2.1em;
+}
+aside nav li a {
+	color: #fff;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+aside nav li a:hover {
+	color: #fff;
+}
+.design-selection li {
+	padding: .7em 0;
+	line-height: 1.05em;
+	color: #fff;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+.design-selection li a {
+	font-family: 'Roboto Condensed', sans-serif;
+}
+.design-selection li a:first-child {
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight: 700;
+}
+ @media screen and (min-width: 690px) {
+
+
+.intro .preamble:after {
+	float: left;
+	position: relative;
+	left: 46%;
+	clear: both;
+	width: 14em;
+	margin-top: -260px;
+	margin-left: -300px;
+}
+.supporting > * {
+	float: left;
+	overflow: hidden;
+	width: 100%;
+	padding-top: 1.75em;
+}
+.main {
+	overflow: hidden;
+	width: 100%;
+	position: relative;
+	top: 0;
+}
+.preamble {
+	overflow: hidden;
+	width: 100%;
+	position: relative;
+	top: 0;
+}
+
+.explanation:after {
+	float: left;
+	position: relative;
+	left: 50%;
+	clear: right;
+	width: 14em;
+	margin-top: -130px;
+	height: 11em;
+}
+.participation:after {
+	float: left;
+	position: relative;
+	left: 46%;
+	clear: both;
+	width: 14em;
+	margin-top: -400px;
+	margin-left: -260px;
+	height: 28em;
+}
+.benefits:after {
+	float: left;
+	position: relative;
+	left: 46%;
+	clear: both;
+	width: 14em;
+	margin-top: -170px;
+	margin-left: -260px;
+	height: 14em;
+}
+.requirements {
+	max-width: 800px;
+	margin: 0 auto;
+	float: none;
+}
+
+.requirements h3 {
+	padding-bottom: .35em;
+}
+aside nav ul {
+	width: 75%;
+	margin: 0 auto;
+}
+.zen-resources ul {
+	padding: .7em;
+}
+.zen-resources li {
+	display: inline-block;
+	padding-left: .7em;
+}
+
+}
+ @media screen and (min-width: 800px) {
+	.summary p, header h1, header h2, .explanation p, .explanation h3, .benefits p, .benefits h3 {
+		max-width: 450px;
+		clear: left;
+		float: left;
+		left: 50%;
+		margin-left: -20px;
+		max-width: 407px;
+		position: relative;
+		top: -125px;
+		clear: both;
+		position: relative;
+		text-align: left;
+		margin-bottom: 0.3em;
+	}
+	header h2 {
+		font-size: 2em;
+		margin-top: 0.3em;
+	}
+	.summary:after {
+		height: 9em;
+	}
+	
+	.intro:before, .explanation:before, .benefits:before {
+		height: 20em;
+		display: block;
+		content: "";
+		float: left;
+		left: 50%;
+		margin: 0 0 -156px -250px;
+		position: relative;
+		top: 56px;
+		width: 220px;
+	}
+	.intro .preamble:before, .participation:before {
+		height: 20em;
+		display: block;
+		content: "";
+		float: left;
+		left: 50%;
+		margin: 0px 0 -156px 143px;
+		position: relative;
+		top: 56px;
+		width: 230px;
+		
+	}
+	.preamble h3, .preamble p, .participation h3, .participation p {
+		clear: both;
+		float: left;
+		left: 50%;
+		margin-bottom: 0.3em;
+		margin-left: -273px !important;
+		max-width: 391px !important;
+		position: relative;
+		text-align: right !important;
+		top: -125px;
+	}
+	
+	
+	
+	header h2 {
+		margin-bottom: .35em;
+	}
+	.main {
+		background: #ba2228;
+	}
+	.preamble {
+	}
+	aside {
+	}
+}
+ @media screen and (min-width: 940px) {
+
+	.intro .preamble:after {
+		left: 50%;
+	}
+	.explanation h3, .explanation p {
+		max-width: 485px;
+	}
+	.requirements {
+		max-width: 850px;
+	}
+}
+
+@font-face {
+  font-family: 'Bangers';
+  src: url('fonts/Bangers-webfont.eot'); /* IE9 Compat Modes */
+  src: url('fonts/Bangers-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('fonts/Bangers-webfont.woff2') format('woff2'), /* Super Modern Browsers */
+       url('fonts/Bangers-webfont.woff') format('woff'), /* Pretty Modern Browsers */
+       url('fonts/Bangers-webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('fonts/Bangers-webfont.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
